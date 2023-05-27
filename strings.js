@@ -1,6 +1,6 @@
 console.log('strings');
 
-
+console.log('<!-------A-------!>');
 // a. Crear una variable de tipo string con al menos 10 caracteres y convertir todo eltexto en mayúscula (utilizar toUpperCase)
 
 var string;
@@ -10,6 +10,7 @@ console.log(string.toUpperCase());
 
 
 
+console.log('<!-------B-------!>');
 // b. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevostring con los primeros 5 caracteres guardando el resultado en una nuevavariable (utilizar substring)
 
 var string, stringLittle;
@@ -21,6 +22,7 @@ console.log(stringLittle);
 
 
 
+console.log('<!-------C-------!>');
 // c. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevostring con los últimos 3 caracteres guardando el resultado en una nueva variable(utilizar substring)
 
 var string, stringLittle, posEnd, posAlmostEnd;
@@ -35,6 +37,7 @@ console.log(stringLittle);
 
 
 
+console.log('<!-------D-------!>');
 // d. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevostring con la primera letra en mayúscula y las demás en minúscula. Guardar elresultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase yel operador +)
 
 var string, stringMayu, posEnd, posAlmostEnd;
@@ -46,6 +49,7 @@ console.log(stringMayuIni);
 
 
 
+console.log('<!-------E-------!>');
 // e. Crear una variable de tipo string con al menos 10 caracteres y algún espacio enblanco. Encontrar la posición del primer espacio en blanco y guardarla en unavariable (utilizar indexOf).
 
 var string, position;
@@ -57,6 +61,7 @@ console.log('Se encuentra en la posicion ' + position + ' del arreglo');
 
 
 
+console.log('<!-------F-------!>');
 // f. Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio). 
 //    Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de ambas palabras en mayúscula y las demás letras en minúscula (utilizar indexOf, substring,
 //    toUpperCase, toLowerCase y el operador +).
